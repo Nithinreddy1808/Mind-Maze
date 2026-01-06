@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 MindMaze
 
-# Run and deploy your AI Studio app
+MindMaze is a visual reasoning lab designed to explore how modern Large Language Models (LLMs) handle classical Artificial Intelligence planning problems.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
+- **🐒 Monkey & Banana:** A causal reasoning simulation where the agent must navigate boxes and height constraints.
+- **🧹 Vacuum World:** An efficiency-based agent test focused on maximizing cleanliness in a dynamic grid.
+- **🤖 Powered by Gemini 3:** Real-time heuristic planning and state-space solving using Google's latest reasoning models.
+- **🎮 Interactive Control:** Toggle between manual "Human" mode and autonomous "AI" mode.
+- **📱 Responsive Design:** Modern, fluid UI built with React and Tailwind CSS.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1caTB2nupvImUPVYb4COuFAzDkZ-8mAq4
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+- **Framework:** React 19
+- **Logic:** Google GenAI (Gemini 3 Pro/Flash)
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
