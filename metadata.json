@@ -1,0 +1,5 @@
+{
+  "name": "MindMaze",
+  "description": "A visual reasoning lab for classical AI problems like Monkey & Banana and Vacuum World, powered by Gemini 3's state-space logic.",
+  "requestFramePermissions": []
+}
